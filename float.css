@@ -1,0 +1,28 @@
+.header{
+    text-transform: uppercase;
+    display: flex;
+    line-height: 270px;
+    text-align: center;
+    border: solid 2px black;
+
+    
+
+}
+.top{
+    height: 270px;
+    width: 33.33%;
+    background-color: aqua;
+}
+.middle{
+    height: 270px;
+    width: 33.33%;
+    background-color: antiquewhite;
+  
+}
+.bottom{
+
+    height: 270px;
+    width: 33.33%;
+    background-color: blue;
+  
+}

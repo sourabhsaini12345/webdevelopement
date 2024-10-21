@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.header{
+    border: solid 2px black;
+}
+nav{
+    display: flex;
+    width: 100%;
+    position: fixed;
+
+}
+.zeetron{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: 600px;
+    height: 40px;
+    background-color: antiquewhite;
+    width: 50%;
+    text-align: center;
+    line-height: 40px;    
+
+}
+div ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+
+}
+div ul {
+    display: flex;
+    text-decoration: none;
+    font-style: normal;
+    height: 40px;
+    justify-content: center;
+    padding-top: 5px;
+    background-color: antiquewhite;
+    list-style: none;
+}
+div ul li{
+    text-decoration: none;
+}
+div{
+    width: 50%;
+}
+.gellery img{
+    height: 130vh;
+    
+}
+.dev,.fa-angle-left,.fa-angle-right{
+    position: absolute;
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    top: 50%;
+    left: 50%;
+    text-transform: uppercase;
+    transform: translateY(-50% -50%);
+}
+ .hello{
+    border: solid 1px black;
+    text-transform: uppercase;
+ font-size: large;  
+}
+.gellery,.fa-angle-left{
+    font-size: 100px;
+    left: 10px;
+
+}
+.gellery,.fa-angle-right{
+    font-size: 100px;
+    right: 100px;
+}

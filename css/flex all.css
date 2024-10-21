@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+border: solid 2px beige;
+display: flex;
+flex-wrap: wrap;
+justify-content: start;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    border: saddlebrown solid 2px;
+    background-color: bisque;
+    text-align: center;
+    line-height: 100px;
+
+}

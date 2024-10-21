@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+body{
+    background-color: aquamarine;
+}
+.web{margin: auto;
+    border: solid 2px rebeccapurple;
+    height: 600px;
+    width: 500px;
+    margin-top: 150px;
+    margin-bottom: 400px;
+    font-size: large;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    background-color: aqua;
+} 
+div label{
+
+}
