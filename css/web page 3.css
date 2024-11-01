@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.parent{
+    font-size: 35px;
+    font-weight: 500px;
+    /* border: solid 2px saddlebrown; */
+    /* background-color: deeppink; */
+    height: 40px;
+    line-height: 35px;
+    text-align: center;
+    width: 50%;
+    
+    
+}
+.parents{
+    /* border:  solid saddlebrown 1px; */
+    display: flex;
+    background-color: lightblue;
+    width: 100%;
+    position: fixed;
+}
+.top{
+    /* border: solid saddlebrown 2px; */
+    height: 40px;
+    width: 50%;
+    /* background-color: aqua; */
+    line-height: 40px;
+    
+}
+div ul{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+div ul li a{
+    color: rgb(31, 66, 66);
+    text-decoration: none;
+}
+.web img{
+    height: 750px;
+    width: 100%;
+}
+.web p{
+    font-size: 52px;
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: wheat;
+    font-weight: 600;
+    left: 50%;
+    width: 50%;
+    transform: translate(-50% -50%);
+    padding-top: 450px;
+    display: flex;
+}
+.fa-chevron-left{
+    font-size: 40px;
+    color: blueviolet;
+    position: absolute;
+    padding-top: 450px;
+    left: 50%;
+    left: 10px;
+
+
+}
+.fa-chevron-right{
+    font-size: 40px;
+    color: blueviolet;
+    position: absolute;
+    padding-top: 450px;
+    right: 50%;
+    right: 10px;
+    
+
+
+}
+.card img{
+    height: 230px;
+    width: 100%;
+}
+.card p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    justify-content: center;
+}
+.card{
+    border:  solid 2px black;
+    width: 25%;
+    margin: 10px 10px;
+}
+ .card,.btn{
+    text-align: center;
+    color: brown;
+background: none;
+}
+.btn:hover{
+    cursor: pointer;
+    color: aquamarine;
+    background-color: darkgray;
+
+}
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+}.box{
+    height: 200px;
+    width: 25%;
+    background: darkgreen;
+    font-size: larger;
+    line-height: 50px;
+    text-align: center;
+    color: antiquewhite;
+}
+.boxs{
+    display: flex;
+}

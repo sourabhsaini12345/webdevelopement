@@ -1,0 +1,125 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+
+}
+body{
+    background-color:  rgb(216 214 175);
+}
+.parents{
+    display: flex;
+    background-color: rgb(61, 61, 56);
+
+}
+
+.parent{
+    font-size: 30px;
+    font-family: cursive;
+    height: 55px;
+    width: 40%;
+    /* border: solid saddlebrown 2px ; */
+    /* background-color: darkblue; */
+
+    color: rgb(218, 150, 25);
+ text-align: center;
+ line-height: 55px;
+}
+.box{
+    /* font-size: 30px; */
+    font-family: cursive;
+    height: 55px;
+    width: 60%;
+    /* border: solid saddlebrown 2px ; */
+    /* background-color: darkblue; */
+
+    color: rgb(219, 185, 121);
+ /* text-align: center; */
+ line-height: 55px;
+
+}
+.box ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    
+}
+.box ul li a{
+    color: rgb(189, 158, 101);
+    text-decoration: none;
+}
+.card img{
+    height: 630px;
+    width: 100%;
+}
+.deve{
+font-family: cursive;
+font-size: 40px;
+height: 30px;
+position: absolute;
+top: 50%;
+left: 50%;
+text-transform: uppercase;
+color:#5e5e5e;
+
+
+}
+.fa-chevron-left{
+    position: absolute;
+    color:lightgoldenrodyellow;
+    left: 10px;
+    top: 50%;
+    font-size: 50px;
+    
+}
+.fa-chevron-right{
+    top: 50%;
+    font-size: 50px;
+    color:lightgoldenrodyellow;
+    right: 10px;
+    position: absolute;
+
+}
+.cards
+{
+    border: solid lightblue 1px;
+    width: 25%;
+    margin: 10px 10px;
+}
+.cards img{
+    width: 100%;
+}
+.btn{
+    padding: 10px 20px;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    color:darkblue;
+    /* font-size: large; */
+    /* text-transform: uppercase; */
+margin-bottom: 10px;
+text-transform: uppercase;}
+.full{
+    display: flex;
+    display: flex;
+}
+.foot{
+    height: 200px;
+    width: 25%;
+    /* border: solid saddleb 1px ; */
+    background-color: rgb(130, 133, 113);
+    line-height: 40px;
+    font-family: cursive;
+    text-align: center;
+}
+.foot ul{
+    list-style: none;
+
+}
+.foot ul li a {
+    text-decoration: none;
+    color: bisque;
+}
+.foots{
+    display: flex;
+}

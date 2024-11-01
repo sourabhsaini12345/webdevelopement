@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.parents {
+    display: flex;
+    background-color: darkred;
+    position: fixed;
+    width: 100%;
+}
+
+.parent {
+
+    /* border: solid saddlebrown 1px; */
+    height: 50px;
+    width: 40%;
+    /* background-color:darkblue; */
+    color: aquamarine;
+    text-align: center;
+    font-size: 30px;
+    line-height: 50px;
+}
+
+.box a {
+    text-decoration: none;
+    color: bisque;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.box {
+    /* border:  solid darkgoldenrod 2px; */
+    display: flex;
+    height: 50px;
+    width: 60%;
+    /* background-color:darkmagenta; */
+    justify-content: space-evenly;
+    line-height: 50px;
+
+}
+
+.card img {
+    height: 800px;
+    width: 100%;
+}
+
+.card p {
+    height: 40px;
+    font-size: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: aqua;
+
+
+}
+
+.fa-chevron-left {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    left: 10px;
+}
+
+.fa-chevron-left:hover {
+    cursor: pointer;
+    left: 30px;
+}
+
+.fa-chevron-right {
+    font-size: 35px;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+
+}
+
+.cards {
+    /* height: 380px; */
+    width: 25%;
+    margin: 10px 10px;
+    border: 1px solid #0002;
+}
+
+.cards img {
+    height: 200px;
+    width: 100%;
+}
+
+.about {
+    font-size: 20px;
+    color: darkgreen;
+    padding: 0px 10px;
+}
+
+.btn {
+    display: block;
+    margin: 10px auto;
+    height: 30px;
+    width: 100px;
+    border: 1px solid #000;
+    text-align: center;
+
+}
+
+.tushar {
+    display: flex;
+}
+.foot{
+    height: 250px;
+    width: 25%;
+    border:  solid saddlebrown 2px;
+    background-color: lightgreen;
+    text-align: center;
+
+}
+div ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-family:  serif;
+    line-height: 50px;
+    color: rgb(39, 143, 177);
+}
+.foots{
+    display: flex;
+}
+.foot ul{
+    list-style: none;
+}
